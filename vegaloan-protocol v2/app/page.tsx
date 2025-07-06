@@ -91,7 +91,7 @@ const RECEIVE_CHAINS = [
   { id: "arbitrum", name: "Arbitrum", symbol: "ARB", color: "#28A0F0" },
 ]
 
-export default function XLoanHome() {
+export default function X-LendHome() {
   // Page state management
   const [currentPage, setCurrentPage] = useState<"landing" | "dashboard">("landing")
 
@@ -396,7 +396,7 @@ export default function XLoanHome() {
                 backgroundClip: "text",
               }}
             >
-              XLoan
+              X-Lend
             </div>
             <div
               className="text-xs md:text-sm opacity-70 hidden md:block"
@@ -728,7 +728,7 @@ export default function XLoanHome() {
                     letterSpacing: "-0.02em",
                   }}
                 >
-                  How XLoan Works
+                  How X-Lend Works
                 </h2>
                 <p
                   className="text-lg md:text-xl max-w-3xl mx-auto"
@@ -1139,7 +1139,7 @@ export default function XLoanHome() {
                         color: "#ffffff",
                       }}
                     >
-                      XLoan
+                      X-Lend
                     </div>
                   </div>
                   <p
@@ -1268,7 +1268,7 @@ export default function XLoanHome() {
                     color: "#cccccc",
                   }}
                 >
-                  © 2024 XLoan Protocol. Built with ❤️ for the future of DeFi lending.
+                  © 2024 X-Lend Protocol. Built with ❤️ for the future of DeFi lending.
                 </p>
               </div>
             </div>
